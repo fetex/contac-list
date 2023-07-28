@@ -1,8 +1,8 @@
 // Lista de contactos con datos predefinidos
 
 let contacts = [
-  {name: "Simon Bastidas"},
-  {name: "Enedina Mora"},
+  {name: "Dicson Quimbayo"},
+  {name: "Enedina Castro"},
   {name: "Andres Montenegro"},
 ]
 
