@@ -55,3 +55,14 @@ function printContacts() {
   console.log('Contacts:');
   contacts.forEach(contact => console.log(`${contact.firstName} ${contact.lastName}`));
 }
+
+/* Para actualizar un contacto existente en la lista pasando el nombre y apellidos antiguos
+como una única cadena y el nombre y apellidos nuevos como una única cadena. La función 
+encontrará el contacto con el nombre antiguo y lo actualizará con el nombre nuevo. */
+
+function updateContact(oldName, newName) {
+    let index = contacts.findIndex(contact => contact.name === oldName);
+    if (index !== -1) {
+        contacts[index].name = newName;
+    }
+}
