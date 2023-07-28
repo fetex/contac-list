@@ -24,7 +24,7 @@ function deleteContact(name) {
 // Función para imprimir los contactos presentes en la lista
 
 function printContacts() {
-  console.log("Contacts:");
+  console.log("Contacts  :");
   contacts.forEach(contact => console.log(contact.name));
 }
 
